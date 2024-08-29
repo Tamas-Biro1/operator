@@ -313,5 +313,6 @@ func (c *APIServerDeployment) GetPriorityClassName() string {
 			return c.Spec.Template.Spec.PriorityClassName
 		}
 	}
+
 	return ""
 }
