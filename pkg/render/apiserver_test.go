@@ -21,7 +21,6 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/google/go-cmp/cmp/internal/function"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
